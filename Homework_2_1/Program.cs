@@ -7,8 +7,9 @@ string[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturd
 
 
 
-// Console.WriteLine((First == days[6], First != days[6]) ? "Ура! Первое число является квадратом второго." : "Увы первое число не является квадратом второго.");
-// Console.WriteLine($"Четные числа." + {days[First]}");
-Console.WriteLine($"День недели:  {days[First -1]}");
-Console.WriteLine($"День недели:  {days[6]}");
-
+if(First == 7)
+    Console.WriteLine($"Ура выходной воскресенье! {days[6]}");
+else
+    Console.WriteLine("Увы не выходной придется поработать.");
+// Работает второе условие не коректно    
+// Console.WriteLine((First == 7 && First != 7) ? $"Ура выходной воскресенье! {days[6]}" : "Увы не выходной придется поработать.");
