@@ -1,6 +1,4 @@
-﻿// 4. Найти расстояние между точками в пространстве 2D/3D
-
-using System;
+﻿using System;
 // Растояние между точками 2D
 // double ReadDouble(string message)
 // {
